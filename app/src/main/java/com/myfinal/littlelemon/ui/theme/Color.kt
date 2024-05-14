@@ -2,11 +2,11 @@ package com.myfinal.littlelemon.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Primary1 = Color(0xF4CE14)
-val Primary2 = Color (0x495E57)
+object LittleLemonColor {
+    val green = Color(0xFF495E57)
+    val yellow = Color(0xFFF4CE14)
 
-val Secondary1 = Color(0xEE9972)
-val Secondary2 = Color (0xFBDABB)
-
-val Light = Color(0xEDEFEE)
-val Dark = Color(0x333333)
+    val pink = Color(0xFFFBDABB)
+    val cloud = Color(0xFFEDEFEE)
+    val charcoal = Color(0xFF333333)
+}
